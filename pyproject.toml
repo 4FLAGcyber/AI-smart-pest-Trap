@@ -1,0 +1,8 @@
+[project]
+name = "ai-smart-pest-trap"
+version = "2.0.0"
+description = "Detect → Classify → Decide → Act pest trap with live dashboard"
+requires-python = ">=3.9"
+
+[tool.vercel]
+entrypoint = "dashboard:app"

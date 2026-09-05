@@ -1,0 +1,20 @@
+# Core
+numpy
+Pillow
+requests
+
+# AI inference (cross-platform LiteRT interpreter; much smaller than full TensorFlow)
+ai-edge-litert
+
+# Dashboard
+fastapi
+uvicorn
+python-multipart
+
+# Local webcam support (optional; not needed on Vercel serverless).
+# Install with: pip install -r requirements.txt -r requirements-local.txt
+# opencv-python
+
+# Raspberry Pi only (uncomment when deploying to the trap hardware)
+# gpiozero
+# picamera2

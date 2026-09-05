@@ -1,0 +1,4 @@
+# Optional local-only dependencies.
+# Install on top of requirements.txt for real webcam support:
+#   pip install -r requirements.txt -r requirements-local.txt
+opencv-python
